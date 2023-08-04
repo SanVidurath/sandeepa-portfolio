@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 import { greetings, sections } from '../portfolio';
-import Headroom from 'headroom.js';
 import { Link } from 'react-scroll';
 import {
   UncontrolledCollapse,
@@ -21,22 +20,17 @@ const Navigation = () => {
 
   const onExited = () => setCollapseClasses('');
 
-  useEffect(() => {
-    let headroom = new Headroom(document.getElementById('navbar-main'));
-    // initialise
-    headroom.init();
-  });
-
   return (
     <>
       <header className="header-global">
         <Navbar
-          className="navbar-main navbar-transparent navbar-light headroom"
+          className="navbar-main fixed-top"
           expand="lg"
           id="navbar-main"
+          style={{backgroundColor: "#142c4c",height: "8%"}}
         >
           <Container>
-            <NavbarBrand href="/" className="mr-lg-5">
+            <NavbarBrand className="mr-lg-5" style={{cursor: "default"}}>
               <h2 className="text-white" id="nav-title">
                 {greetings.name}
               </h2>
@@ -79,7 +73,7 @@ const Navigation = () => {
                       spy={true}
                     >
                       <NavLink
-                        className="nav-link-icon"
+                        className="nav-link-icon text-white"
                         href={section.name}
                       >
                         <i className={section.icon}></i>
