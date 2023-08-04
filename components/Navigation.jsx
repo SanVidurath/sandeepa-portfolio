@@ -82,7 +82,7 @@ const Navigation = () => {
                         className="nav-link-icon"
                         href={section.name}
                       >
-                        <i class={section.icon}></i>
+                        <i className={section.icon}></i>
                       </NavLink>
                     </Link>
                   </NavItem>
