@@ -52,6 +52,10 @@ export const skillsSection = {
           fontAwesomeClassname: 'logos:bootstrap',
         },
         {
+          skillName: 'ReactJS',
+          fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
+        },
+        {
           skillName: 'Material UI',
           fontAwesomeClassname: 'logos:material-ui',
         },
@@ -66,10 +70,6 @@ export const skillsSection = {
         {
           skillName: 'ExpressJS',
           fontAwesomeClassname: 'skill-icons:expressjs-light',
-        },
-        {
-          skillName: 'ReactJS',
-          fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
         },
         {
           skillName: 'Python',
@@ -134,8 +134,8 @@ export const skillsSection = {
       skills: [
         emoji('⚡ Drawing Entity Relationship(ER) diagrams for case study scenarios'),
         emoji('⚡ Mapping ER diagrams to design SQL databases'),
-        emoji('⚡ Designing Non SQL databases using MongoDB or Google Firebase based on client requirments'),
-        emoji('⚡ Building customized reports as per client requirements using Microsoft Power BI Report Server and SQL Server')
+        emoji('⚡ Designing Non SQL databases using MongoDB or Google Firebase'),
+        emoji('⚡ Building customized reports using Microsoft Power BI Report Server and SQL Server')
       ],
       softwareSkills: [
         {
@@ -182,7 +182,7 @@ export const experience = [
     descBullets: [
       "Building reports using Microsoft Power BI by executing SQL queries and stored procedures on SQL Server",
       "Deployment of a Point of Sales system intergrated with a fingerprint and RFID card system using Biometric authentication for cashless transcations in the company cafeteria",
-      "Configuration, testing, administration and providing application support to the most used terminal handling operating system globally, Navis N4, and its related internal customer portals",
+      "Configuration, testing, administration and providing application support to the most used terminal handling operating system globally, Navis N4, and its related internal customer portal systems",
       "Designing flow charts and writing requirement specification documentation for various business requirements"
     ],
   },
@@ -190,7 +190,7 @@ export const experience = [
 
 export const projects = [
   {
-    name: 'Autopoint',
+    name: 'Autopoint (R&D)',
     desc: 'Second Hand Car Price Prediction System implemented using a customized Linear Regression Algorithm',
     github: 'https://github.com/Gayashan97/Autovision',
     link: 'https://autopoint.onrender.com',
@@ -207,7 +207,7 @@ export const projects = [
     ]
   },
   {
-    name: 'FusionX',
+    name: 'FusionX (R&D)',
     desc: 'Web Application and Mobile Application used to calculate and predict demurrage charges',
     github: 'https://github.com/Gayashan97/FusionX',
     snaps: 'https://www.flickr.com/photos/197056910@N02/albums/72177720304274656',
