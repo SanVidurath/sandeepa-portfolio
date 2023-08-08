@@ -27,7 +27,7 @@ const Navigation = () => {
           className="navbar-main fixed-top"
           expand="lg"
           id="navbar-main"
-          style={{backgroundColor: "#142c4c",height: "8%"}}
+          style={{backgroundColor: "#142c4c",height: "10%"}}
         >
           <Container>
             <NavbarBrand className="mr-lg-5" style={{cursor: "default"}}>
@@ -68,6 +68,7 @@ const Navigation = () => {
                 {sections.map((section, i) => {
                   return <NavItem key={i}>
                     <Link
+                      
                       activeClass="active"
                       to={section.name}
                       spy={true}
