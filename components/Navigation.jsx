@@ -71,6 +71,7 @@ const Navigation = () => {
                       activeClass="active"
                       to={section.name}
                       spy={true}
+                      smooth
                     >
                       <NavLink
                         className="nav-link-icon text-white"
