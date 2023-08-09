@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import { greetings, sections } from '../portfolio';
 import { Link } from 'react-scroll';
+import Headroom from 'headroom.js';
 import {
   UncontrolledCollapse,
   NavbarBrand,
@@ -20,14 +21,19 @@ const Navigation = () => {
 
   const onExited = () => setCollapseClasses('');
 
+  useEffect(() => {
+    let headroom = new Headroom(document.getElementById('navbar-main'));
+    // initialise
+    headroom.init();
+  });
+
   return (
     <>
       <header className="header-global">
         <Navbar
-          className="navbar-main fixed-top"
+          className="navbar-main navbar-transparent navbar-light headroom"
           expand="lg"
           id="navbar-main"
-          style={{backgroundColor: "#142c4c",height: "10%"}}
         >
           <Container>
             <NavbarBrand className="mr-lg-5" style={{cursor: "default"}}>
@@ -40,7 +46,7 @@ const Navigation = () => {
               aria-label="navbar_toggle"
               id="navbar_global"
             >
-              <span className="navbar-toggler-icon text-white" />
+              <span className="navbar-toggler-icon/>
             </button>
             <UncontrolledCollapse
               toggler="#navbar_global"
