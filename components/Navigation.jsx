@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+
 
 import { greetings, sections } from '../portfolio';
-import { Link } from 'react-scroll';
 import Headroom from 'headroom.js';
+import { Link } from 'react-scroll';
 import {
   UncontrolledCollapse,
   NavbarBrand,
@@ -31,12 +32,12 @@ const Navigation = () => {
     <>
       <header className="header-global">
         <Navbar
-          className="navbar-main navbar-transparent navbar-light headroom"
+          className="navbar-main navbar-transparent"
           expand="lg"
           id="navbar-main"
         >
           <Container>
-            <NavbarBrand className="mr-lg-5" style={{cursor: "default"}}>
+            <NavbarBrand style={{cursor: "default"}} className="mr-lg-5">
               <h2 className="text-white" id="nav-title">
                 {greetings.name}
               </h2>
@@ -46,7 +47,7 @@ const Navigation = () => {
               aria-label="navbar_toggle"
               id="navbar_global"
             >
-              <span className="navbar-toggler-icon/>
+              <span className="navbar-toggler-icon" />
             </button>
             <UncontrolledCollapse
               toggler="#navbar_global"
@@ -74,7 +75,6 @@ const Navigation = () => {
                 {sections.map((section, i) => {
                   return <NavItem key={i}>
                     <Link
-                      
                       activeClass="active"
                       to={section.name}
                       spy={true}
