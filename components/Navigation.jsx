@@ -40,7 +40,7 @@ const Navigation = () => {
               aria-label="navbar_toggle"
               id="navbar_global"
             >
-              <span className="navbar-toggler-icon" />
+              <span className="navbar-toggler-icon text-white" />
             </button>
             <UncontrolledCollapse
               toggler="#navbar_global"
