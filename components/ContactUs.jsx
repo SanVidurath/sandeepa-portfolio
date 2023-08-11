@@ -2,7 +2,6 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import classnames from 'classnames';
 import CustomizedSnackbars from './SnackBar';
-
 import {
   Button,
   Card,
@@ -33,7 +32,6 @@ export const ContactUs = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    console.log();
 
     emailjs
       .sendForm(
@@ -113,7 +111,6 @@ export const ContactUs = () => {
                         required
                         autoComplete="off"
                         className="form-control-alternative"
-                        cols="80"
                         name="user_message"
                         placeholder="Type a message..."
                         rows="4"

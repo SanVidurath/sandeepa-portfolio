@@ -1,5 +1,4 @@
 import React from 'react';
-
 import {
   Card,
   CardBody,
@@ -8,7 +7,6 @@ import {
   CardText,
   Col,
 } from 'reactstrap';
-
 import { Fade } from 'react-reveal';
 
 const ExperienceCard = ({ data }) => {

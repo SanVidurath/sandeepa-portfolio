@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from 'react';
-
-
 import { greetings, sections } from '../portfolio';
 import Headroom from 'headroom.js';
 import { Link } from 'react-scroll';
