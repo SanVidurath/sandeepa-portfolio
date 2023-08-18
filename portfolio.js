@@ -18,6 +18,7 @@ export const contact = {};
 export const socialLinks = {
   linkedin: 'https://www.linkedin.com/in/gayashan-tharaka-5786631b1/',
   github: 'https://github.com/Gayashan97',
+  fiverr: 'https://www.fiverr.com/gayashant97'
 };
 
 export const skillsSection = {

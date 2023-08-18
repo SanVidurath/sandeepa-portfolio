@@ -7,20 +7,6 @@ import { socialLinks } from '../portfolio';
 const SocialLinks = () => {
   return (
     <div className="btn-wrapper text-lg">
-      {socialLinks.url && (
-        <Button
-          className="btn-icon-only rounded-circle ml-1"
-          color="white"
-          rel="noopener"
-          aria-label="URL"
-          href={socialLinks.url}
-          target="_blank"
-        >
-          <span className="btn-inner--icon">
-            <i className="fa fa-link" />
-          </span>
-        </Button>
-      )}
       {socialLinks.linkedin && (
         <Button
           className="btn-icon-only rounded-circle ml-1"
@@ -46,6 +32,19 @@ const SocialLinks = () => {
         >
           <span className="btn-inner--icon">
             <i className="fa fa-github" />
+          </span>
+        </Button>
+      )}
+      {socialLinks.fiverr && (
+        <Button
+          className="btn-icon-only rounded-circle ml-1"
+          rel="noopener"
+          aria-label="Fiverr"
+          href={socialLinks.fiverr}
+          target="_blank"
+        >
+          <span className="btn-inner--icon">
+            <i className="fa fa-link" />
           </span>
         </Button>
       )}
