@@ -195,17 +195,8 @@ export const projects = [
     desc: 'Second Hand Car Price Prediction System implemented using a customized Linear Regression Algorithm',
     github: 'https://github.com/Gayashan97/Autovision',
     link: 'https://autopoint.onrender.com',
-    tech: ["ReactJS","Bootstrap","NodeJS","ExpressJS","Python","MongoDB"],
-    images: [
-      {
-        caption: 'Accident',
-        imgsrc: '/projects/test/accident.png',
-      },
-      {
-        caption: 'Camera',
-        imgsrc: '/projects/test/cam.png',
-      }
-    ]
+    snaps: 'https://www.flickr.com/photos/197056910@N02/albums/72177720311175408',
+    tech: ["ReactJS","Bootstrap","NodeJS","ExpressJS","Python","MongoDB"]
   },
   {
     name: 'FusionX (R&D)',
