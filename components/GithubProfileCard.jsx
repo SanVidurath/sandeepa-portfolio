@@ -24,7 +24,7 @@ const GithubProfileCard = ({ prof }) => {
               <p className="lead text-white mt-3">
                 Gayashan Tharaka
               </p>
-              <p className="text-white mt-3">Freelance Software Developer</p>
+              <p className="text-white mt-3">Software Developer</p>
               <div className="my-3 icon-shape bg-gradient-white shadow rounded text-info">
                 <i className="ni ni-pin-3 text-info mr-2" />
                 Panadura, Sri Lanka
