@@ -6,7 +6,7 @@ export const greetings = {
   description:
     "I am a passionate software developer creating high quality software applications with simple, user friendly interfaces and advanced functionality...",
   resumeLink:
-    'https://gayashan-tharaka.tiiny.site',
+    'https://gayashantharaka.tiiny.site',
 };
 
 export const openSource = {
@@ -16,7 +16,7 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-  linkedin: 'https://www.linkedin.com/in/gayashan-tharaka-5786631b1/',
+  linkedin: 'https://www.linkedin.com/in/gayashan-tharaka-5786631b1',
   github: 'https://github.com/Gayashan97',
   fiverr: 'https://www.fiverr.com/gayashant97'
 };
@@ -184,7 +184,7 @@ export const experience = [
       "Building reports using Microsoft Power BI by executing SQL queries and stored procedures on SQL Server",
       "Deployment of a Point of Sales system integrated with a fingerprint and RFID card system using Biometric authentication for cashless transactions in the company cafeteria",
       "Configuration, testing, administration and providing application support to the most used terminal handling operating system globally, Navis N4, and its related internal customer portal systems",
-      "Designing flow charts and writing requirement specification documentation for various business requirements"
+      "Designing flow charts and writing software requirement specification documentation for various business requirements"
     ],
   },
 ];
@@ -272,10 +272,10 @@ export const showContactUs = true;
 export const seoData = {
   title: 'Gayashan Tharaka',
   description:
-    'Freelance Software Developer',
+    'Software Developer',
   author: 'Gayashan Tharaka',
   image: '/avatars/gayashan.jpg',
-  url: 'https://gayashan-tharaka.onrender.com/',
+  url: 'https://gayashantharaka.onrender.com',
   keywords: [
     'Gayashan',
     'Gayashan Tharaka',
