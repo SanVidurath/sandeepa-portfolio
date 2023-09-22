@@ -56,7 +56,7 @@ const Navigation = () => {
             >
               <div className="navbar-collapse-header">
                 <Row>
-                  <Col className="collapse-brand" xs="7">
+                  <Col className="collapse-brand" xs="10">
                     <h3 className="text-black" id="nav-title">
                       {greetings.name}
                     </h3>
