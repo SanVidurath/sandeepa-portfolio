@@ -35,7 +35,7 @@ const Navigation = () => {
           id="navbar-main"
         >
           <Container>
-            <NavbarBrand style={{cursor: "default"}} className="mr-lg-5">
+            <NavbarBrand style={{ cursor: "default" }} className="mr-lg-5">
               <h2 className="text-white" id="nav-title">
                 {greetings.name}
               </h2>
@@ -82,6 +82,9 @@ const Navigation = () => {
                         href={section.name}
                       >
                         <i className={section.icon}></i>
+                        <span className="nav-link-inner--text d-lg-none ml-2">
+                          {section.tag}
+                        </span>
                       </NavLink>
                     </Link>
                   </NavItem>

@@ -18,7 +18,6 @@ export const contact = {};
 export const socialLinks = {
   linkedin: 'https://www.linkedin.com/in/gayashan-tharaka-5786631b1',
   github: 'https://github.com/Gayashan97',
-  //fiverr: 'https://www.fiverr.com/gayashant97'
 };
 
 export const skillsSection = {
@@ -181,7 +180,7 @@ export const experience = [
     companylogo: '/img/icons/common/sagt.jpg',
     date: '2018 – Present',
     descBullets: [
-      "Building reports using Microsoft Power BI by executing SQL queries and stored procedures on SQL Server",
+      "Building reports with Microsoft Power BI by executing SQL queries and stored procedures on SQL Server",
       "Deployment of a Point of Sales system integrated with a fingerprint and RFID card system using Biometric authentication for cashless transactions in the company cafeteria",
       "Configuration, testing, administration and providing application support to the most used terminal handling operating system globally, Navis N4, and its related internal customer portal systems",
       "Designing flow charts and writing software requirement specification documentation for various business requirements"
@@ -289,26 +288,32 @@ export const seoData = {
 export const sections = [
   {
     name: "skills",
-    icon: "fa fa-star"
+    icon: "fa fa-star",
+    tag: "Skills"
   },
   {
     name: "projects",
-    icon: "fa fa-laptop"
+    icon: "fa fa-laptop",
+    tag: "Projects"
   },
   {
     name: "education",
-    icon: "fa fa-book"
+    icon: "fa fa-book",
+    tag: "Education"
   },
   {
     name: "experience",
-    icon: "fa fa-briefcase"
+    icon: "fa fa-briefcase",
+    tag: "Experience"
   },
   {
     name: "contact",
-    icon: "fa fa-envelope"
+    icon: "fa fa-envelope",
+    tag: "Contact"
   },
   {
-    name: "info",
-    icon: "fa fa-info"
+    name: "about",
+    icon: "fa fa-user",
+    tag: " About"
   },
 ];

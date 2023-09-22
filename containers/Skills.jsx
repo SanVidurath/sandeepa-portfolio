@@ -15,9 +15,7 @@ const Skills = () => {
           return (
             <Row className="my-5" key={index}>
               <Col lg="6" className="order-2 order-lg-1">
-                <Fade left duration={2000}>
-                  <DisplayLottie animationPath={section.lottieAnimationFile} />
-                </Fade>
+                <DisplayLottie animationPath={section.lottieAnimationFile} />
               </Col>
               <Col lg="6" className="order-1 order-lg-2">
                 <Fade right duration={2000}>
