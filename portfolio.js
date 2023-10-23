@@ -175,14 +175,14 @@ export const educationInfo = [
 
 export const experience = [
   {
-    role: 'Information Technology Trainee',
+    role: 'Information Technology Trainee -> Associate Application Consultant',
     company: 'South Asia Gateway Terminals (Pvt) Ltd',
     companylogo: '/img/icons/common/sagt.jpg',
     date: '2018 – Present',
     descBullets: [
-      "Building reports with Microsoft Power BI by executing SQL queries and stored procedures on more than 5 databases in SQL Server",
       "Assisting in developing dashboards and internal web applications for ad hoc requirements of the company using Java, Spring Boot, Apache Tomcat, HTML, CSS, JavaScript, and Bootstrap",
-      "Deployment of a Point of Sales system integrated with a fingerprint and RFID card system using Biometric authentication to facilitate cashless transactions in the cafeteria for 1000+ employees",
+      "Building reports with Microsoft Power BI by executing SQL queries and stored procedures on Microsoft SQL Server",
+      "Deployment of a Point of Sales system integrated with a fingerprint and RFID card system using Biometric authentication to facilitate cashless transactions in the company cafeteria",
       "Configuration, testing, administration and providing application support to the most used terminal handling operating system globally, Navis N4, and its related internal customer portal systems",
       "Designing flow charts and writing software requirement specification documentation for various business requirements"
     ],
