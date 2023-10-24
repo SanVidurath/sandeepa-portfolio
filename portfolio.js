@@ -175,7 +175,7 @@ export const educationInfo = [
 
 export const experience = [
   {
-    role: 'Information Technology Trainee -> Associate Application Consultant',
+    role: 'Associate Application Consultant',
     company: 'South Asia Gateway Terminals (Pvt) Ltd',
     companylogo: '/img/icons/common/sagt.jpg',
     date: '2018 – Present',
