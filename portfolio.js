@@ -180,11 +180,11 @@ export const experience = [
     companylogo: '/img/icons/common/ifs.png',
     date: '2024 January – Present',
     descBullets: [
-      "Manage and prioritize cases & tasks using ServiceNow application to ensure timely resolution of customer issues and adherence to SLAs",
-      "Provide technical assistance to customers and internal teams regarding the IFS applications including troubleshooting and issue resolution via code level investigations using PL/SQL, .NET and Oracle Database",
-      "Maintain a deep understanding of the IFS applications including their architecture, features and implementation details, to effectively address customer inquiries and challenges",
-      "Create and update knowledge base articles to help customers and internal teams better understand and utilize the IFS applications",
-      "Collaborate with R&D teams to escalate complex issues, prioritize feature requests and advocate for customer needs"
+      "Manage and prioritize cases & tasks using ServiceNow application to ensure timely resolution of customer issues and adherence to SLAs.",
+      "Provide technical assistance to customers and internal teams regarding the IFS applications including troubleshooting and issue resolution via code level investigations using PL/SQL, .NET and Oracle Database.",
+      "Maintain a deep understanding of the IFS applications including their architecture, features and implementation details, to effectively address customer inquiries and challenges.",
+      "Create and update knowledge base articles to help customers and internal teams better understand and utilize the IFS applications.",
+      "Collaborate with R&D teams to escalate complex issues, prioritize feature requests and advocate for customer needs."
     ],
   },
   {
@@ -193,11 +193,11 @@ export const experience = [
     companylogo: '/img/icons/common/sagt.jpg',
     date: '2018 September – 2023 December',
     descBullets: [
-      "Assisting in developing dashboards and internal web applications for ad hoc requirements of the company using Java, Spring Boot, Apache Tomcat, HTML, CSS, JavaScript, and Bootstrap",
-      "Building reports with Microsoft Power BI by executing SQL queries and stored procedures on Microsoft SQL Server",
-      "Deployment of a Point of Sales system integrated with a fingerprint and RFID card system using Biometric authentication to facilitate cashless transactions in the company cafeteria",
-      "Configuration, testing, administration and providing application support to the most used terminal handling operating system globally, Navis N4, and its related internal customer portal systems",
-      "Designing flow charts and writing software requirement specification documentation for various business requirements"
+      "Develop dashboards and internal web applications for ad hoc requirements of the company using Java, Spring Boot, Apache Tomcat, Microsoft SQL Server, HTML, CSS, JS and Bootstrap.",
+      "Build reports with Microsoft Power BI by executing SQL queries and stored procedures on Microsoft SQL Server.",
+      "Configurate, test, administrate and provide application support to the most used terminal handling operating system globally, Navis N4, and its related internal customer portal systems.",
+      "Deployment of a Point of Sales system integrated with Biometric authentication using a fingerprint scanner and an RFID card system.",
+      "Design flow charts and write software requirement specification documentation for various business requirements."
     ],
   },
 ];
