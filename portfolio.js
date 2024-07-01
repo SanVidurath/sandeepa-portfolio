@@ -175,10 +175,23 @@ export const educationInfo = [
 
 export const experience = [
   {
-    role: 'Associate Application Consultant',
+    role: 'Software Engineer',
+    company: 'IFS R&D International (Pvt) Ltd',
+    companylogo: '/img/icons/common/ifs.png',
+    date: '2024 January – Present',
+    descBullets: [
+      "Manage and prioritize cases & tasks using ServiceNow application to ensure timely resolution of customer issues and adherence to SLAs",
+      "Provide technical assistance to customers and internal teams regarding the IFS applications including troubleshooting and issue resolution via code level investigations using PL/SQL, .NET and Oracle Database",
+      "Maintain a deep understanding of the IFS applications including their architecture, features and implementation details, to effectively address customer inquiries and challenges",
+      "Create and update knowledge base articles to help customers and internal teams better understand and utilize the IFS applications",
+      "Collaborate with R&D teams to escalate complex issues, prioritize feature requests and advocate for customer needs"
+    ],
+  },
+  {
+    role: 'Information Technology Trainee',
     company: 'South Asia Gateway Terminals (Pvt) Ltd',
     companylogo: '/img/icons/common/sagt.jpg',
-    date: '2018 – Present',
+    date: '2018 September – 2023 December',
     descBullets: [
       "Assisting in developing dashboards and internal web applications for ad hoc requirements of the company using Java, Spring Boot, Apache Tomcat, HTML, CSS, JavaScript, and Bootstrap",
       "Building reports with Microsoft Power BI by executing SQL queries and stored procedures on Microsoft SQL Server",
