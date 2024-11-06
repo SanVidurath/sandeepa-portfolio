@@ -180,11 +180,11 @@ export const experience = [
     companylogo: '/img/icons/common/ifs.png',
     date: '2024 January – Present',
     descBullets: [
-      "Manage and prioritize cases & tasks using ServiceNow application to ensure timely resolution of customer issues and adherence to SLAs.",
-      "Provide technical assistance to customers and internal teams regarding the IFS applications including troubleshooting and issue resolution via code level investigations using PL/SQL, .NET and Oracle Database.",
-      "Maintain a deep understanding of the IFS applications including their architecture, features and implementation details, to effectively address customer inquiries and challenges.",
-      "Create and update knowledge base articles to help customers and internal teams better understand and utilize the IFS applications.",
-      "Collaborate with R&D teams to escalate complex issues, prioritize feature requests and advocate for customer needs."
+      "Manage and prioritize cases & tasks using ServiceNow application to ensure timely resolution of client issues and adherence to SLAs.",
+      "Provide technical assistance to clients and internal teams regarding the IFS applications including troubleshooting and issue resolution via code level investigations using PL/SQL, .NET and Oracle Database.",
+      "Maintain a deep understanding of the IFS applications including their architecture, features and implementation details, to effectively address client inquiries and challenges.",
+      "Create and update knowledge base articles to help clients and internal teams better understand and utilize the IFS applications.",
+      "Collaborate with R&D teams to escalate complex issues, prioritize feature requests and advocate for client needs."
     ],
   },
   {
