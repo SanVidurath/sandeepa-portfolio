@@ -1,23 +1,22 @@
 import emoji from 'react-easy-emoji';
 
 export const greetings = {
-  name: 'Gayashan Tharaka',
-  title: "Hello World, I'm Gayashan!",
+  name: 'Sandeepa Maddumage',
+  title: "Hello!😊, I'm Sandeepa",
   description:
-    "I am a passionate software developer creating high quality software applications with simple, user friendly interfaces and advanced functionality...",
-  resumeLink:
-    'https://gayashantharaka.tiiny.site',
+    'I am a motivated and dedicated individual who loves turning complex problems into efficient, user-friendly solutions. I thrive in fast-paced environments, enjoy collaborating with teams to drive innovation, and continuously explore new technologies to stay ahead in the ever-evolving tech landscape. Let’s connect and build something amazing!',
+  resumeLink: 'https://cv-sandeepa-vidurath.tiiny.site/',
 };
 
 export const openSource = {
-  githubUserName: 'Gayashan97',
+  githubUserName: 'SanVidurath',
 };
 
 export const contact = {};
 
 export const socialLinks = {
-  linkedin: 'https://www.linkedin.com/in/gayashan-tharaka-5786631b1',
-  github: 'https://github.com/Gayashan97',
+  linkedin: 'https://www.linkedin.com/in/sandeepamaddumage/',
+  github: 'https://github.com/SanVidurath',
 };
 
 export const skillsSection = {
@@ -26,43 +25,47 @@ export const skillsSection = {
   data: [
     {
       title: 'Web Development',
-      lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
+      lottieAnimationFile: '/lottie/skills/fullstack.json', // Fullstack / Web Development animation
       skills: [
         emoji(
-          '⚡ Building full stack responsive websites using the MERN stack(MongoDB ExpressJS ReactJS NodeJS)'
+          '⚡ Building beautiful responsive web applications using the MERN stack (MongoDB, ExpressJS, ReactJS, NodeJS)'
         ),
-        emoji('⚡ Building RESTful APIs using ExpressJS and Mongoose'),
-        emoji('⚡ Building applications with web scrapped data from Python libraries'),
+        emoji(
+          '⚡ Developing enterprise-grade web apps with the MEAN stack (MongoDB, ExpressJS, Angular, NodeJS)'
+        ),
+        emoji('⚡ Building RESTful APIs with ExpressJS and NodeJS'),
+        emoji(
+          '⚡ Implementing secure authentication and authorization using JWT'
+        ),
+        emoji(
+          '⚡ Designing reusable UI components with ReactJS, Angular, Bootstrap, and Material UI'
+        ),
       ],
       softwareSkills: [
         {
-          skillName: 'HTML-5',
+          skillName: 'HTML5',
           fontAwesomeClassname: 'vscode-icons:file-type-html',
         },
         {
-          skillName: 'CSS-3',
+          skillName: 'CSS3',
           fontAwesomeClassname: 'vscode-icons:file-type-css',
         },
+        { skillName: 'JavaScript', fontAwesomeClassname: 'logos:javascript' },
         {
-          skillName: 'JavaScript',
-          fontAwesomeClassname: 'logos:javascript',
+          skillName: 'TypeScript',
+          fontAwesomeClassname: 'logos:typescript-icon',
         },
-        {
-          skillName: 'Bootstrap',
-          fontAwesomeClassname: 'logos:bootstrap',
-        },
+        { skillName: 'Bootstrap', fontAwesomeClassname: 'logos:bootstrap' },
         {
           skillName: 'ReactJS',
           fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
         },
         {
-          skillName: 'Material UI',
-          fontAwesomeClassname: 'logos:material-ui',
+          skillName: 'Angular',
+          fontAwesomeClassname: 'vscode-icons:file-type-angular',
         },
-        {
-          skillName: 'NPM',
-          fontAwesomeClassname: 'logos:npm-icon',
-        },
+        { skillName: 'Material UI', fontAwesomeClassname: 'logos:material-ui' },
+        { skillName: 'NPM', fontAwesomeClassname: 'logos:npm-icon' },
         {
           skillName: 'NodeJS',
           fontAwesomeClassname: 'vscode-icons:file-type-node',
@@ -71,88 +74,114 @@ export const skillsSection = {
           skillName: 'ExpressJS',
           fontAwesomeClassname: 'skill-icons:expressjs-light',
         },
-        {
-          skillName: 'Python',
-          fontAwesomeClassname: 'logos:python',
-        },
       ],
     },
     {
-      title: 'Mobile Application Development',
-      lottieAnimationFile: '/lottie/skills/mobileapp.json', // Path of Lottie Animation JSON File
+      title: 'Enterprise Application Development',
+      lottieAnimationFile: '/lottie/skills/desktopapp.json', // Enterprise & Backend animation
       skills: [
-        emoji('⚡ Building cross platform mobile applications using Flutter'),
         emoji(
-          '⚡ Building mobile android applications using Java'
+          '⚡ Building enterprise-scale applications using Java, Spring Boot, Spring REST, and JPA/Hibernate'
         ),
+        emoji('⚡ Implementing microservices and monolithic architectures'),
+        emoji('⚡ Securing applications with Spring Security & JWT'),
+        emoji('⚡ Building desktop applications using JavaFX and Java Swing'),
       ],
       softwareSkills: [
-        // ? Check README To get icon details
+        { skillName: 'Java', fontAwesomeClassname: 'devicon:java' },
+        { skillName: 'Spring Boot', fontAwesomeClassname: 'logos:spring-icon' },
         {
-          skillName: 'Flutter',
-          fontAwesomeClassname: 'logos:flutter',
+          skillName: 'Spring Security',
+          fontAwesomeClassname: 'mdi:shield-lock',
         },
         {
-          skillName: 'Java',
-          fontAwesomeClassname: 'devicon:java',
+          skillName: 'Hibernate',
+          fontAwesomeClassname: 'simple-icons:hibernate',
         },
+        { skillName: 'JavaFX', fontAwesomeClassname: 'mdi:monitor' },
         {
-          skillName: 'SQLite',
-          fontAwesomeClassname: 'logos:sqlite',
+          skillName: 'Java Swing',
+          fontAwesomeClassname: 'mdi:window-maximize',
         },
+        { skillName: 'Maven', fontAwesomeClassname: 'logos:maven' },
       ],
     },
     {
-      title: 'Desktop Application Development',
-      lottieAnimationFile: '/lottie/skills/desktopapp.json', // Path of Lottie Animation JSON File
+      title: 'Cloud & DevOps',
+      lottieAnimationFile: '/lottie/skills/cloud.json', // Cloud / DevOps animation
       skills: [
         emoji(
-          '⚡ Building desktop applications with Java and JavaFX to run locally'
+          '⚡ Deploying and managing applications on AWS and Microsoft Azure'
         ),
-        emoji(
-          '⚡ Building desktop applications with C/C++'
-        ),
+        emoji('⚡ Containerizing applications with Docker'),
+        emoji('⚡ Orchestrating containerized workloads with Kubernetes'),
+        emoji('⚡ Using Git & GitHub for version control and CI/CD pipelines'),
       ],
       softwareSkills: [
+        { skillName: 'AWS', fontAwesomeClassname: 'logos:aws' },
         {
-          skillName: 'Java',
-          fontAwesomeClassname: 'devicon:java',
+          skillName: 'Microsoft Azure',
+          fontAwesomeClassname: 'logos:microsoft-azure',
         },
-        {
-          skillName: 'JavaFX',
-          fontAwesomeClassname: 'nonicons:java-16',
-        },
-        {
-          skillName: 'C',
-          fontAwesomeClassname: 'fa6-solid:c',
-        },
+        { skillName: 'Docker', fontAwesomeClassname: 'logos:docker-icon' },
+        { skillName: 'Kubernetes', fontAwesomeClassname: 'logos:kubernetes' },
+        { skillName: 'Git', fontAwesomeClassname: 'logos:git-icon' },
+        { skillName: 'GitHub', fontAwesomeClassname: 'akar-icons:github-fill' },
       ],
     },
     {
-      title: 'Database Design',
-      lottieAnimationFile: '/lottie/skills/databasedesign.json', // Path of Lottie Animation JSON File
+      title: 'Database Design & Management',
+      lottieAnimationFile: '/lottie/skills/databasedesign.json', // Database-related animation
       skills: [
-        emoji('⚡ Drawing Entity Relationship(ER) diagrams for case study scenarios'),
-        emoji('⚡ Mapping ER diagrams to design SQL databases'),
-        emoji('⚡ Designing Non SQL databases using MongoDB or Google Firebase'),
-        emoji('⚡ Building customized reports using Microsoft Power BI Report Server and SQL Server')
+        emoji('⚡ Designing relational databases with ER diagrams and SQL'),
+        emoji('⚡ Working with relational databases (MySQL, PostgreSQL)'),
+        emoji('⚡ Designing and querying NoSQL databases (MongoDB)'),
+        emoji('⚡ Implementing database migrations and schema evolution'),
+        emoji('⚡ Optimizing database queries and indexing for performance'),
+        emoji('⚡ Ensuring data integrity and normalization in database design'),
       ],
       softwareSkills: [
+        { skillName: 'MySQL', fontAwesomeClassname: 'logos:mysql' },
         {
-          skillName: 'MySQL',
-          fontAwesomeClassname: 'logos:mysql',
-        },
-        {
-          skillName: 'SQL Server',
-          fontAwesomeClassname: 'devicon-plain:microsoftsqlserver-wordmark',
+          skillName: 'PostgreSQL',
+          fontAwesomeClassname: 'logos:postgresql',
         },
         {
           skillName: 'MongoDB',
           fontAwesomeClassname: 'devicon:mongodb-wordmark',
         },
         {
-          skillName: 'Firebase',
-          fontAwesomeClassname: 'logos:firebase',
+          skillName: 'DB Migrations',
+          fontAwesomeClassname: 'mdi:database-refresh',
+        },
+      ],
+    },
+    {
+      title: 'AI & Automation',
+      lottieAnimationFile: '/lottie/skills/ai_bot.json', // Miscellaneous skills animation
+      skills: [
+        emoji('⚡ Developing APIs with Python and FastAPI'),
+        emoji('⚡ Automating Excel and Word file operations using Python'),
+        emoji('⚡ Implementing AI-powered features using TensorFlow.js'),
+        emoji('⚡ Following Agile methodology for project management'),
+        emoji('⚡ Building business solutions with Microsoft Power Apps'),
+      ],
+      softwareSkills: [
+        { skillName: 'Python', fontAwesomeClassname: 'logos:python' },
+        { skillName: 'FastAPI', fontAwesomeClassname: 'logos:fastapi-icon' },
+        { skillName: 'TensorFlowJS', fontAwesomeClassname: 'logos:tensorflow' },
+        {
+          skillName: 'Excel Automation',
+          fontAwesomeClassname: 'vscode-icons:file-type-excel',
+        },
+        {
+          skillName: 'Word Automation',
+          fontAwesomeClassname: 'vscode-icons:file-type-word',
+        },
+        { skillName: 'Agile', fontAwesomeClassname: 'mdi:progress-check' },
+        {
+          skillName: 'Power Apps',
+          fontAwesomeClassname: 'logos:microsoft',
         },
       ],
     },
@@ -161,121 +190,184 @@ export const skillsSection = {
 
 export const educationInfo = [
   {
-    schoolName: 'University of Westminster',
-    subHeader: 'BEng (Hons) Software Engineering',
-    duration: '2018 - 2023',
-    grade: 'Second Upper',
-    desc: 'Implementation of two research and development projects:',
+    schoolName: 'General Sir John Kotelawala Defence University (KDU), Sri Lanka',
+    subHeader: 'B.Sc. in Engineering (Hons) in Electronic and Telecommunication',
+    duration: '2018 - 2022',
+    grade: 'Second upper (FGPA 3.377)',
+    desc: 'Projects:',
     descBullets: [
-      'Second Hand Car Price Prediction System',
-      'Demurrage Calculator and Prediction System',
+      'Cloud-Based Traffic Violations Detection System (2021)',
+      'A GPU Based Deep Neural Network for a Car Park (2020) ',
+      'Wireless Mobile Phone Charger (2020)',
+      'Automatic Intensity Controlled LED Night Lamp with Motion Detection (2019) ',
+      ' YAGI antenna design (2018)'
+    ],
+  },
+  {
+    schoolName: 'Institute of Computer Engineering Technology (iCET), Sri Lanka',
+    subHeader: 'iCD(iCET Certified Developer) Full Stack Developer program',
+    duration: '2024 - 2025',
+    grade: '(FGPA 4.08)',
+  },
+  {
+    schoolName: 'Lyceum International School Panadura, Sri Lanka',
+    subHeader: 'Primary & Secondary Education',
+    duration: '2003 - 2016',
+    descBullets: [
+      'G.C.E. A/L(2017) - Physical Science Stream (1A 2C passes)',
+      'G.C.E. O/L(2013) - 9A passes',
+      'College Head Prefect for the year 2014/2015',
     ],
   },
 ];
 
 export const experience = [
   {
-    role: 'Software Engineer',
-    company: 'IFS R&D International (Pvt) Ltd',
-    companylogo: '/img/icons/common/ifs.png',
-    date: '2024 January – Present',
+    role: 'Software Engineer Intern',
+    company: '1 Billion Technology (Pvt) Ltd, Sri Lanka',
+    companylogo: '/img/icons/common/1BT.png',
+    date: '2025 June – Present',
     descBullets: [
-      "Manage and prioritize cases & tasks using ServiceNow application to ensure timely resolution of client issues and adherence to SLAs.",
-      "Provide technical assistance to clients and internal teams regarding the IFS applications including troubleshooting and issue resolution via code level investigations using PL/SQL, .NET and Oracle Database.",
-      "Maintain a deep understanding of the IFS applications including their architecture, features and implementation details, to effectively address client inquiries and challenges.",
-      "Create and update knowledge base articles to help clients and internal teams better understand and utilize the IFS applications.",
-      "Collaborate with R&D teams to escalate complex issues, prioritize feature requests and advocate for client needs."
+      'Developed and maintained scalable RESTful APIs using Python and FastAPI.',
+      'Implemented database schema migrations using Alembic.',
+      'Containerized applications using Docker and automated database migrations during image build.',
+      'Theoretical knowledge on AWS services including Route 53, CloudFront, S3, Cognito, Serverless, SES, API Gateway, VPC, VPC link/endpoints, Internet Gateway, NAT, ECS, ALB, ECR, RDS, ElastiCache, Secrets manager, CloudWatch, Snowflake.',
+      'Worked within a large-scale React.js project, gaining experience in real-world application development.',
+      'Implemented automation of .docx and .xlsx files using Python.',
+      'Worked with Microsoft Power Apps and Microsoft Azure.',
+      'Followed Agile methodologies for project management and collaboration.',
     ],
   },
   {
-    role: 'Information Technology Trainee',
-    company: 'South Asia Gateway Terminals (Pvt) Ltd',
-    companylogo: '/img/icons/common/sagt.jpg',
-    date: '2018 September – 2023 December',
+    role: 'Electronic Engineer',
+    company: 'Naturub Exports International (Pvt) Ltd, Sri Lanka',
+    companylogo: '/img/icons/common/naturub.png',
+    date: '2022 February – 2023 February',
     descBullets: [
-      "Develop dashboards and internal web applications for ad hoc requirements of the company using Java, Spring Boot, Apache Tomcat, Microsoft SQL Server, HTML, CSS, JS and Bootstrap.",
-      "Build reports with Microsoft Power BI by executing SQL queries and stored procedures on Microsoft SQL Server.",
-      "Configurate, test, administrate and provide application support to the most used terminal handling operating system globally, Navis N4, and its related internal customer portal systems.",
-      "Deployment of a Point of Sales system integrated with Biometric authentication using a fingerprint scanner and an RFID card system.",
-      "Design flow charts and write software requirement specification documentation for various business requirements."
+      'Jacquard Card Tester and Jacquard Data Logger Installation Project.',
+      'Electronic Fault Finding and Repairing.',
+      'Troubleshooting Machine Breakdown and Repairing.',
+      'PABX system wiring,fault finding and providing connections.',
+      'Elevator wiring.',
+      'Hands on knowledge on VFDs, boiler, relays,contactors, circuit breakers, UPS, Solar Inverters and PA system.',
+      'Knowledge on ISO documentation, PRM and Energy Management audit.'
+    ],
+  },
+  {
+    role: 'Electronic Engineer Intern',
+    company: 'Vega Innovations (Pvt) Ltd, Sri Lanka',
+    companylogo: '/img/icons/common/vega.png',
+    date: '2021 July – 2022 January',
+    descBullets: [
+      'Debugging Auxiliary Power Supply for Solar Inverter.',
+      'Designing of regulator circuit.',
+      'Tracing of circuit paths.',
+      'Simulation PID control and MPPT control using MATLAB simulink.',
+    ],
+  },
+  {
+    role: 'Visiting Lecturer',
+    company: 'Sri Lanka Technological Campus (SLTC), Sri Lanka',
+    companylogo: '/img/icons/common/sltc.png',
+    date: '2025 August – Present',
+    descBullets: [
+      'Designing and delivering engaging lectures, tutorials, and workshops.',
+      'Guiding and mentoring students in academic and career development.',
+      'Developing course materials, assessments, and learning resources.',
+      'Applying modern teaching methodologies and technology-enhanced learning tools.',
     ],
   },
 ];
 
 export const projects = [
   {
-    name: 'Autopoint (R&D)',
-    desc: 'Second Hand Car Price Prediction System implemented using a customized Linear Regression Algorithm',
-    github: 'https://github.com/Gayashan97/Autovision',
-    link: 'https://autopoint.onrender.com',
-    snaps: 'https://www.flickr.com/photos/197056910@N02/albums/72177720311175408',
-    tech: ["ReactJS","Bootstrap","NodeJS","ExpressJS","Python","MongoDB"]
+    name: 'AcademiX',
+    desc: 'An Online Examination Platform for Educational Institutions - Group Project',
+    github: '',
+    snaps:
+      '',
+    tech: ['Angular', 'Spring Boot', 'Spring MVC', 'Spring Security', 'Spring Data JPA', 'Spring Validation', 'Maven', 'MySQL', 'TailwindCSS'],
   },
   {
-    name: 'FusionX (R&D)',
-    desc: 'Web Application and Mobile Application used to calculate and predict demurrage charges',
-    github: 'https://github.com/Gayashan97/FusionX',
-    snaps: 'https://www.flickr.com/photos/197056910@N02/albums/72177720304274656',
-    tech: ["AWS","ReactJS","NodeJS","Flutter","Python","MySQL"]
+    name: 'MOSBurgers',
+    desc: 'A full-stack POS (Point of Sale) system tailored for restaurants, enabling smooth order processing and management',
+    github: 'https://github.com/SanVidurath/MOSBurgers',
+    snaps:
+      'https://flic.kr/s/aHBqjCuEJt',
+    tech: ['Angular', 'Spring Boot', 'Spring MVC', 'Spring Security', 'Spring Data JPA', 'Spring Validation', 'Maven', 'MySQL'],
   },
   {
-    name: 'ADCELL',
-    desc: 'Science Web Site',
-    github: 'https://github.com/1hanzla100/Django-ecommerce',
-    link: 'https://adcell.onrender.com',
-    snaps: 'https://www.flickr.com/photos/197056910@N02/albums/72177720304150968',
-    tech: ["HTML","CSS","JS"]
+    name: 'ClothifyStore',
+    desc: 'This is a Point of Sale (POS) application designed specifically for fashion shops',
+    github: 'https://github.com/SanVidurath/ClothifyStoreLA',
+    snaps:
+      'https://flic.kr/s/aHBqjCuMV5',
+    tech: ['Java', 'JavaFX', 'Maven', 'MySQL', 'Hibernate'],
   },
   {
-    name: 'TinDog',
-    desc: 'Dog matching web site',
-    github: 'https://github.com/1hanzla100/Django-ecommerce',
-    link: 'https://tindog-s3ds.onrender.com',
-    snaps: 'https://www.flickr.com/photos/197056910@N02/albums/72177720304132646',
-    tech: ["HTML","CSS","Bootstrap"]
+    name: 'RPSGame',
+    desc: 'This is an AI-powered Rock, Paper, Scissors game',
+    github: 'https://github.com/SanVidurath/RPS-Game',
+    link: 'https://sanvidurath.github.io/RPS-Game/',
+    tech: ['Angular', 'Bootstrap', 'TensorFlowJS'],
   },
   {
-    name: 'Emotion',
-    desc: 'Mobile Messenger Chat Application',
-    github: 'https://github.com/Gayashan97/Emotion',
-    snaps: 'https://www.flickr.com/photos/197056910@N02/albums/72177720310033912',
-    tech: ["Flutter","Firebase"]
+    name: 'FashionShop',
+    desc: 'This is an UI for a clothes shop featuring men and women clothes',
+    github: 'https://github.com/SanVidurath/clothes-store',
+    link: 'https://clothes-store-client.vercel.app/',
+    tech: ['ReactTS', 'JS', 'HTML', 'CSS', 'MongoDB' ],
   },
   {
-    name: 'Weather24x7',
-    desc: 'Mobile Weather Application showing weather details retrieved from OpenWeather API',
-    github: 'https://github.com/Gayashan97/Weather24x7',
-    snaps: 'https://www.flickr.com/photos/197056910@N02/albums/72177720304272571',
-    tech: ["Flutter"]
+    name: 'BlogWebsite',
+    desc: 'This is a blog website with authors, posts, comments and reviews',
+    github: 'https://github.com/SanVidurath/blog-website',
+    link: 'https://sanvidurath.github.io/blog-website/',
+    tech: ['ReactTS'],
   },
   {
-    name: 'BMI Calculator',
-    desc: 'Mobile Application to calculate BMI',
-    github: 'https://github.com/Gayashan97/BMI-Calculator',
-    snaps: 'https://www.flickr.com/photos/197056910@N02/albums/72177720304289443',
-    tech: ["Flutter"]
+    name: 'WeatherApp',
+    desc: 'This is a weather app that provides real-time weather of any location in the world',
+    github: 'https://github.com/SanVidurath/weather-app',
+    link: 'https://sanvidurath.github.io/weather-app/',
+    tech: ['ReactTS', 'JS', 'HTML', 'CSS'],
   },
   {
-    name: 'Movie Hub',
-    desc: 'Mobile Movie Management Application with IMDB rating intergration',
-    github: 'https://github.com/Gayashan97/Movie-Maniac',
-    snaps: 'https://www.flickr.com/photos/197056910@N02/albums/72177720304229618',
-    tech: ["Java","SQLite"]
+    name: 'Snapshot',
+    desc: 'This project displays a gallery of random images based on the search query of user',
+    github: 'https://github.com/SanVidurath/snapshot',
+    link: 'https://sanvidurath.github.io/snapshot/',
+    tech: ['ReactTS', 'JS', 'HTML'],
   },
   {
-    name: 'Civil Engineering Project',
-    desc: 'Desktop Application used to calculate the compressive strength of concrete',
-    github: 'https://github.com/Gayashan97/Civil-Engineering-Project',
-    snaps: 'https://www.flickr.com/photos/197056910@N02/albums/72177720304190427',
-    tech: ["Java","JavaFX"]
+    name: 'EmojiApp',
+    desc: 'Search for your favorite emojis here',
+    github: 'https://github.com/SanVidurath/Emoji-App',
+    link: 'https://sanvidurath.github.io/Emoji-App/',
+    tech: ['ReactTS', 'JS', 'HTML', 'CSS'],
   },
   {
-    name: 'The Gym',
-    desc: 'Terminal Console Gym Management Application ',
-    github: 'https://github.com/Gayashan97/The-Gym',
-    snaps: 'https://www.flickr.com/photos/197056910@N02/albums/72177720304128815',
-    tech: ["Java","MongoDB"]
+    name: 'MealsApp',
+    desc: 'This is a freecodecamp tutorial project done by John Smilga',
+    github: 'https://github.com/SanVidurath/meals-app',
+    link: 'https://sanvidurath.github.io/meals-app/',
+    tech: ['ReactJS', 'HTML', 'CSS'],
   },
+  {
+    name: 'MovieApp',
+    desc: 'This project was a tutorial of Tech with Tim',
+    github: 'https://github.com/SanVidurath/MovieApp',
+    link: 'https://sanvidurath.github.io/MovieApp/',
+    tech: ['ReactJS', 'HTML', 'CSS'],
+  },
+  {
+    name: 'Tindog',
+    desc: 'This is a project from the course The Complete 2023 Web Development Bootcamp by Dr.Angela Yu',
+    github: 'https://github.com/SanVidurath/doggo_tindog',
+    link: 'https://rawcdn.githack.com/SanVidurath/doggo_tindog/93efc5a29b328fa94dad0280f7279ecfb1b62daf/index.html',
+    tech: ['HTML', 'CSS', 'Bootstrap'],
+  },
+  
 ];
 
 // option to hide or show the ContactUs component
@@ -283,51 +375,50 @@ export const showContactUs = true;
 
 // See object prototype on SEO.jsx page
 export const seoData = {
-  title: 'Gayashan Tharaka',
-  description:
-    'Software Developer',
-  author: 'Gayashan Tharaka',
-  image: '/avatars/gayashan.jpg',
+  title: 'Sandeepa Maddumage',
+  description: 'Software Engineer',
+  author: 'Sandeepa Maddumage',
+  image: '/avatars/sandeepa.jpeg',
   url: 'https://gayashantharaka.onrender.com',
   keywords: [
-    'Gayashan',
-    'Gayashan Tharaka',
-    'gayashan97',
+    'Sandeepa',
+    'Sandeepa Maddumage',
+    'SanVidurath',
     'Portfolio',
-    'Gayashan Portfolio ',
-    'Gayashan Tharaka Portfolio',
+    'Sandeepa Portfolio ',
+    'Sandeepa Maddumage Portfolio',
   ],
 };
 
 export const sections = [
   {
-    name: "skills",
-    icon: "fa fa-star",
-    tag: "Skills"
+    name: 'skills',
+    icon: 'fa fa-star',
+    tag: 'Skills',
   },
   {
-    name: "projects",
-    icon: "fa fa-laptop",
-    tag: "Projects"
+    name: 'projects',
+    icon: 'fa fa-laptop',
+    tag: 'Projects',
   },
   {
-    name: "education",
-    icon: "fa fa-book",
-    tag: "Education"
+    name: 'education',
+    icon: 'fa fa-book',
+    tag: 'Education',
   },
   {
-    name: "experience",
-    icon: "fa fa-briefcase",
-    tag: "Experience"
+    name: 'experience',
+    icon: 'fa fa-briefcase',
+    tag: 'Experience',
   },
   {
-    name: "contact",
-    icon: "fa fa-envelope",
-    tag: "Contact"
+    name: 'contact',
+    icon: 'fa fa-envelope',
+    tag: 'Contact',
   },
   {
-    name: "about",
-    icon: "fa fa-user",
-    tag: " About"
+    name: 'about',
+    icon: 'fa fa-user',
+    tag: ' About',
   },
 ];

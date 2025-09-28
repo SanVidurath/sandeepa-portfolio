@@ -12,7 +12,7 @@ const GithubProfileCard = ({ prof }) => {
           <Row className="">
             <Col className="order-lg-2" lg="4">
               <img
-                src="/avatars/gayashan.jpg"
+                src="/avatars/sandeepa.jpeg"
                 style={{ width: '200px' }}
                 alt=""
                 className="rounded-circle img-center img-fluid shadow shadow-lg--hover mb-4"
@@ -21,9 +21,9 @@ const GithubProfileCard = ({ prof }) => {
             <Col lg="8" className="order-lg-1">
               <h2 className="text-white">Reach Out to me!</h2>
               <p className="lead text-white mt-3">
-                Gayashan Tharaka
+                Sandeepa Maddumage
               </p>
-              <p className="text-white mt-3">Software Developer</p>
+              <p className="text-white mt-3">Software Engineer</p>
               <div className="my-3 icon-shape bg-gradient-white shadow rounded text-info">
                 <i className="ni ni-pin-3 text-info mr-2" />
                 Panadura, Sri Lanka
