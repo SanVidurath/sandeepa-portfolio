@@ -379,7 +379,7 @@ export const seoData = {
   description: 'Software Engineer',
   author: 'Sandeepa Maddumage',
   image: '/avatars/sandeepa.jpeg',
-  url: 'https://gayashantharaka.onrender.com',
+  url: 'https://sandeepa-portfolio-fm35br9r5-sandeepas-projects.vercel.app/',
   keywords: [
     'Sandeepa',
     'Sandeepa Maddumage',
