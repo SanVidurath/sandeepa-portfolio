@@ -236,6 +236,8 @@ export const experience = [
       'Implemented automation of .docx and .xlsx files using Python.',
       'Worked with Microsoft Power Apps and Microsoft Azure.',
       'Followed Agile methodologies for project management and collaboration.',
+      'Implemented Infrastructure as Code (IaC) solutions using Azure Bicep for repeatable and scalable Azure resource creation.',
+      'Helped in implementing an Audit Trail microservice (Node.js/Serverless(Lambda)) with duel data persistence to RDS and S3.'
     ],
   },
   {
