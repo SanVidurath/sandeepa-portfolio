@@ -274,9 +274,10 @@ export const experience = [
     date: '2025 August – Present',
     descBullets: [
       'Designing and delivering engaging lectures, tutorials, and workshops.',
+      'Developing, structuring, and coordinating all course materials, assessments and learning resources, including the preparation of mid-semester and final examinations.',
       'Guiding and mentoring students in academic and career development.',
-      'Developing course materials, assessments, and learning resources.',
-      'Applying modern teaching methodologies and technology-enhanced learning tools.',
+      'Collaborating with Teaching Assistants (TAs) to develop and finalize effective tutorial content and delivery.',
+      'Applying modern teaching methodologies and technology-enhanced learning tools.'
     ],
   },
 ];
