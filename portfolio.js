@@ -237,7 +237,10 @@ export const experience = [
       'Worked with Microsoft Power Apps and Microsoft Azure.',
       'Followed Agile methodologies for project management and collaboration.',
       'Implemented Infrastructure as Code (IaC) solutions using Azure Bicep for repeatable and scalable Azure resource creation.',
-      'Helped in implementing an Audit Trail microservice (Node.js/Serverless(Lambda)) with duel data persistence to RDS and S3.'
+      'Helped in implementing an Audit Trail microservice (Node.js/Serverless(Lambda)) with duel data persistence to RDS and S3.',
+      'Utilized AI-Powered Development Tools (e.g., BMAD, GitHub CoPilot, Cursor) to enhance code quality, accelerate feature implementation, and improve developer productivity.',
+      'Managed and Versioned Codebase using Git/Bitbucket, including creating Pull Requests (PRs), committing changes, and managing feature branches.',
+      'Developed and Maintained RESTful APIs (Node.js/Express.js) by modifying existing endpoints and creating new ones to support evolving frontend requirements.'
     ],
   },
   {
