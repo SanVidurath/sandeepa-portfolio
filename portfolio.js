@@ -240,7 +240,8 @@ export const experience = [
       'Helped in implementing an Audit Trail microservice (Node.js/Serverless(Lambda)) with duel data persistence to RDS and S3.',
       'Utilized AI-Powered Development Tools (e.g., BMAD, GitHub CoPilot, Cursor) to enhance code quality, accelerate feature implementation, and improve developer productivity.',
       'Managed and Versioned Codebase using Git/Bitbucket, including creating Pull Requests (PRs), committing changes, and managing feature branches.',
-      'Developed and Maintained RESTful APIs (Node.js/Express.js) by modifying existing endpoints and creating new ones to support evolving frontend requirements.'
+      'Developed and Maintained RESTful APIs (Node.js/Express.js) by modifying existing endpoints and creating new ones to support evolving frontend requirements.',
+      'Implemented secure profile picture upload functionality by first generating S3 presigned URLs and later optimized the flow using presigned POST requests for direct client-side uploads.'
     ],
   },
   {
