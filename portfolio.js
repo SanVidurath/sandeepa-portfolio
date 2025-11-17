@@ -242,6 +242,7 @@ export const experience = [
       'Managed and Versioned Codebase using Git/Bitbucket, including creating Pull Requests (PRs), committing changes, and managing feature branches.',
       'Developed and Maintained RESTful APIs (Node.js/Express.js) by modifying existing endpoints and creating new ones to support evolving frontend requirements.',
       'Implemented secure profile picture upload functionality by first generating S3 presigned URLs and later optimized the flow using presigned POST requests for direct client-side uploads.'
+      'Updated and refined backend email templates to match the figma designs.'
     ],
   },
   {
